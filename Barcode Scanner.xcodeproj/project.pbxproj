@@ -59,14 +59,11 @@
 		4684460A2BCAA3FB006F5399 /* Barcode Scanner */ = {
 			isa = PBXGroup;
 			children = (
+				468446272BCE99FB006F5399 /* Utilities */,
+				468446232BCE99B8006F5399 /* Screens */,
 				4684460B2BCAA3FB006F5399 /* Barcode_ScannerApp.swift */,
-				468446192BCAA446006F5399 /* BarcodeScannerView.swift */,
 				4684460F2BCAA3FC006F5399 /* Assets.xcassets */,
 				468446112BCAA3FC006F5399 /* Preview Content */,
-				4684461B2BCAA912006F5399 /* ScannerVC.swift */,
-				4684461D2BCE8749006F5399 /* ScannerView.swift */,
-				4684461F2BCE93C5006F5399 /* Alert.swift */,
-				468446212BCE940C006F5399 /* BarcodeScannerViewModel.swift */,
 			);
 			path = "Barcode Scanner";
 			sourceTree = "<group>";
@@ -77,6 +74,49 @@
 				468446122BCAA3FC006F5399 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		468446232BCE99B8006F5399 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				468446252BCE99D7006F5399 /* Views */,
+				468446242BCE99C2006F5399 /* Barcode Scanner */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		468446242BCE99C2006F5399 /* Barcode Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				468446212BCE940C006F5399 /* BarcodeScannerViewModel.swift */,
+				468446192BCAA446006F5399 /* BarcodeScannerView.swift */,
+			);
+			path = "Barcode Scanner";
+			sourceTree = "<group>";
+		};
+		468446252BCE99D7006F5399 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				468446262BCE99DD006F5399 /* UIKit Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		468446262BCE99DD006F5399 /* UIKit Components */ = {
+			isa = PBXGroup;
+			children = (
+				4684461B2BCAA912006F5399 /* ScannerVC.swift */,
+				4684461D2BCE8749006F5399 /* ScannerView.swift */,
+			);
+			path = "UIKit Components";
+			sourceTree = "<group>";
+		};
+		468446272BCE99FB006F5399 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				4684461F2BCE93C5006F5399 /* Alert.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
